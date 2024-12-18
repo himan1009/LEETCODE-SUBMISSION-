@@ -1,1 +1,1 @@
-In this question, use a map and a vector to store ans and use map to store nums value with index and check for rest value in that index.
+​
