@@ -14,11 +14,11 @@ public:
                     low++;
                     high--;
                 }
-                else if(nums[low]+nums[high]>target){
-                    high--;
+                else if(nums[low]+nums[high]<target){
+                    low++;
                 }
                 else{
-                    low++;
+                    high--;
                 }
             }
         }
