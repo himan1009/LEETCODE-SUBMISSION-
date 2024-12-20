@@ -7,6 +7,7 @@ public:
         mp[0]=1;
         for(int i=0;i<nums.size();i++){
             psum=psum+nums[i];
+            // for handling negative cases when psum becomes negative.
             if(psum<0){
                 psum=k-((-1*psum)%k);
             }
