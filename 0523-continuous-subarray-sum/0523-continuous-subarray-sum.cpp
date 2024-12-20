@@ -11,8 +11,9 @@ public:
                     return true;
                 }
             }
-            else
-            mp[psum%k]=i;
+            else{
+                mp[psum%k]=i;
+            }
         }
         return false;
     }
